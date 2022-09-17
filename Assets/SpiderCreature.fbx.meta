@@ -12,7 +12,47 @@ ModelImporter:
   - first:
       74: 282479111118509870
     second: Leaping
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03___Default
+    second: {fileID: 2100000, guid: 209a8efc218fb4b1bbd7aace6b4e4b74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07___Default
+    second: {fileID: 2100000, guid: 209a8efc218fb4b1bbd7aace6b4e4b74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08___Default
+    second: {fileID: 2100000, guid: 9df911e0e8a114e76b6ed2d1eb569714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09___Default
+    second: {fileID: 2100000, guid: 9df911e0e8a114e76b6ed2d1eb569714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Eyes
+    second: {fileID: 2100000, guid: 7e56a8eb7a0614f9085681c46d900525, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Transparency
+    second: {fileID: 2100000, guid: a87e635a3c023448994a5721efcb8aa8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__70
+    second: {fileID: 2100000, guid: 1b4517564e8254abf944fd93e97eb047, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default
+    second: {fileID: 2100000, guid: 209a8efc218fb4b1bbd7aace6b4e4b74, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
