@@ -21,17 +21,7 @@ public class LightSource : MonoBehaviour
         LightSource4.enabled = false;
         InvokeRepeating("ChangeLightSource", 0f, 5f);
     }
-
-    void DoDelayAction(float delayTime) 
-    {
-        StartCoroutine(DelayAction(delayTime));
-    }
-
-    IEnumerator DelayAction(float delayTime)
-    {
-        yield return new WaitForSeconds(delayTime);
-    }
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -41,7 +31,7 @@ public class LightSource : MonoBehaviour
     void ChangeLightSource() {
         var zRotation = cube.transform.localEulerAngles.z;
         Debug.Log(zRotation);
-        if (zRotation > 150) {
+        if (zRotation > 150 && zRotation < 320) {
             IsUpsideDown = !IsUpsideDown;
             Debug.Log("Turning Upside Down : New Light Source");
             mainLight.enabled = !IsUpsideDown;
